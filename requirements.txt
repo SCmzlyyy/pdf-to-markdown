@@ -1,0 +1,21 @@
+# ============================================================
+# pdf-to-markdown - 各类PDF 转 Markdown 自动化流水线 依赖清单
+# ============================================================
+# 安装方式(Windows PowerShell / Git Bash):
+#   pip install -r requirements.txt
+#
+# Tesseract-OCR 仍需额外安装:
+#   https://github.com/UB-Mannheim/tesseract/wiki
+# ============================================================
+
+pymupdf>=1.25.0          # PDF 解析 (fitz)
+pytesseract>=0.3.13      # OCR 引擎封装
+pdf2image>=1.17.0        # PDF → 图片（供 OCR 用）
+pillow>=11.0.0           # 图片处理
+watchdog>=6.0.0          # 文件夹自动监听
+markitdown>=0.1.0        # Microsoft MarkItDown 转换
+
+# ============================================================
+# 验证所有依赖:
+#   python -c "import fitz, PIL, pytesseract, pdf2image, watchdog, markitdown; print('All OK')"
+# ============================================================
