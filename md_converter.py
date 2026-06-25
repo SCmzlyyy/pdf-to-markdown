@@ -24,10 +24,9 @@ logger = logging.getLogger(__name__)
 # ============================================================
 
 # 已知的 markitdown CLI 入口候选路径
+# 优先通过 PATH 查找，无需硬编码
 MARKITDOWN_CLI_CANDIDATES = [
-    "markitdown",                              # PATH 中
-    r"C:\Users\lyyyscmz\miniconda3\Scripts\markitdown",
-    r"C:\Users\lyyyscmz\.local\bin\markitdown",
+    "markitdown",
 ]
 
 

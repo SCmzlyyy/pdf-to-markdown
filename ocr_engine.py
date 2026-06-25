@@ -30,7 +30,6 @@ logger = logging.getLogger(__name__)
 TESSERACT_CANDIDATE_PATHS = [
     r"C:\Program Files\Tesseract-OCR\tesseract.exe",
     r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe",
-    r"D:\Program Files\Tesseract-OCR\tesseract.exe",
     # WSL / Git Bash 下可能通过 PATH 找到
     "tesseract",
 ]

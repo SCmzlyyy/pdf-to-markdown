@@ -113,7 +113,7 @@ conda install -y conda-forge::tesseract
 
 ```bash
 # 进入项目目录
-cd d:\桌面\skill\pdf-to-markdown
+cd pdf-to-markdown
 
 # 一键安装所有依赖
 pip install -r requirements.txt
@@ -350,17 +350,7 @@ TEXT_LENGTH_THRESHOLD = 100   # 改为更小的值，如 20
 
 ### Q4: MarkItDown 找不到 / 转换失败？
 
-**当前 MarkItDown 安装位置：**
-
-```
-C:\Users\lyyyscmz\miniconda3\Lib\site-packages\markitdown
-```
-
-CLI 工具在：
-
-```
-C:\Users\lyyyscmz\miniconda3\Scripts\markitdown
-```
+只需确保 markitdown 已安装即可：
 
 **如果报找不到：**
 
@@ -426,7 +416,7 @@ python main.py --verbose 2>&1 | tee process.log
 
 ```bash
 # Windows (管理员 PowerShell)
-New-Item -ItemType SymbolicLink -Path "D:\Obsidian\科研笔记\PDF导入" -Target "D:\桌面\skill\pdf-to-markdown\output_md"
+New-Item -ItemType SymbolicLink -Path "D:\Obsidian\我的笔记\PDF导入" -Target "D:\你的路径\pdf-to-markdown\output_md"
 ```
 
 ### 配合 ChatGPT / Claude 分析
