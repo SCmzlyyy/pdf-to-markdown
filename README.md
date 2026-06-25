@@ -59,7 +59,7 @@ paper.pdf   →  自动化   →   paper.md
 **不想手动敲命令？打开任意 AI 编程助手（Claude Code / Codex / Cursor / GitHub Copilot / Windsurf / Continue / Cline / 豆包 MarsCode / 通义灵码……），把下面这句话发给它：**
 
 ```text
-""帮我从 https://github.com/lanyuanyayi/pdf-to-markdown 克隆这个项目，
+"帮我从 https://github.com/lanyuanyayi/pdf-to-markdown 克隆这个项目，
 安装所有依赖（包括 Tesseract OCR），然后检查环境是否就绪"
 ```
 
